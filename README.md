@@ -1,6 +1,6 @@
-# Simple UART Reader
+# UART Tool
 
-A lightweight, GUI-based serial port reader built with Python and PySide6 (Qt). Designed specifically for Linux (tested on Ubuntu 26.04), this application allows you to connect to serial devices, monitor data in real-time, and save logs to file.
+A lightweight, GUI-based serial port reader built with Python and PySide6 (Qt). Designed specifically for Linux (tested on Ubuntu 26.04), this application allows you to connect to serial devices, monitor incoming data, and send custom messages in real-time.
 
 ## Prerequisites
 
@@ -44,6 +44,11 @@ Before installing the application, ensure your system has the required dependenc
    pip install -r requirements.txt
    ```
 
+**One-click copy for all installation commands:**
+```bash
+git clone https://github.com/dhaval17/UART-Tool.git && cd UART-Tool && python3 -m venv uart_env && source uart_env/bin/activate && pip install -r requirements.txt
+```
+
 ## Running the Application
 
 Whenever you want to run the application, ensure your virtual environment is active.
@@ -58,6 +63,11 @@ Whenever you want to run the application, ensure your virtual environment is act
    ```bash
    python main.py
    ```
+
+**One-click copy for running the application:**
+```bash
+source uart_env/bin/activate && python main.py
+```
 
 ## Features
 
